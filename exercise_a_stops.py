@@ -13,7 +13,11 @@ print(stops)
 Lin_index = stops.index("Linlithgow")
 print(Lin_index)
 #5. Remove "Livingston" from the list using its name
+stops.remove("Livingston")
+print(stops)
 #6. Delete "Cumbernauld" from the list by index
+stops.pop(2)
+print(stops)
 #7. Print the number of stops there are in the list
 print(len(stops))
 #8. Sort the list alphabetically
