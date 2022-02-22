@@ -1,5 +1,5 @@
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
-
+orig_list = stops
 #1. Add "Edinburgh Waverley" to the end of the list
 stops.append("Edinburgh Waverley")
 print(stops)
@@ -21,5 +21,13 @@ print(stops)
 #7. Print the number of stops there are in the list
 print(len(stops))
 #8. Sort the list alphabetically
+stops.sort()
+print(stops)
 #9. Reverse the positions of the stops in the list
+stops.sort(reverse=True)
+print(stops)
+# orig_list.reverse()
+# print(orig_list)
 #10 Print out all the stops using a for loop
+for station in stops:
+    print(station)
