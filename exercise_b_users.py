@@ -71,5 +71,4 @@ users["Erik"]["lottery_numbers"].append(7)
 # 8. Change Erik's hometown to Edinburgh
 users["Erik"]["home_town"]="Edinburgh"
 # 9. Add a pet dog to Erik called "Fluffy"
-# Erik_pet_dic = users["Erik"]["pets"]
 # 10. Add another person to the users dictionary
